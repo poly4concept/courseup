@@ -10,6 +10,7 @@ export function Home(): JSX.Element {
       <Landing />
       <Box pos="absolute" bottom="0" right="0" zIndex={999} p={25}>
         <Feedback />
+        <p>been a while</p>
       </Box>
     </Flex>
   );
